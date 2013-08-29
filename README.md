@@ -21,7 +21,7 @@ grunt.loadNpmTasks('grunt-connect-http-auth');
 
 Grunt-connect-http-auth is using [http-auth](https://github.com/gevorg/http-auth) of [gevorg](https://github.com/gevorg) as a middleware layer to add authenication.
 
-### Overview
+#### Configuration
 In your project's Gruntfile, add a section named `auth` to the `connect` data object passed into `grunt.initConfig()`. You find the configurations in the [http-auth project](https://github.com/gevorg/http-auth#configurations).
 
 ```js
@@ -34,6 +34,7 @@ grunt.initConfig({
   },
 })
 ```
+
 #### Adding the middleware
 Expose the http-auth function to use in the middleware, at the top of the grunt file:
 ```js
@@ -65,6 +66,14 @@ grunt.registerTask('server', function (target) {
     ]);
 });
 ```
+
+## Thanks
+* Technology: [http-auth](https://github.com/gevorg/http-auth)
+* Inspiration: [grunt-connect-rewrite](https://github.com/viart/grunt-connect-rewrite)
+* Inspiration: [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy)
+
+## Todo
+* Better tests
 
 ## Release History
 _(Nothing yet)_
