@@ -1,7 +1,7 @@
 {
   "name": "grunt-connect-http-auth",
   "description": "Http-auth middleware for grunt-connect.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/eonlepapillon/grunt-connect-http-auth",
   "author": {
     "name": "Peter Ahlers (eonlepapillon)",
