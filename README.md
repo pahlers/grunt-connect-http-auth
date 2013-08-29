@@ -17,7 +17,9 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-connect-http-auth');
 ```
 
-## The "connect_http_auth" task
+## The "grunt-connect-http-auth" task
+
+Grunt-connect-http-auth is using [http-auth](https://github.com/gevorg/http-auth) of [gevorg](https://github.com/gevorg) as a middleware layer to add authenication.
 
 ### Overview
 In your project's Gruntfile, add a section named `auth` to the `connect` data object passed into `grunt.initConfig()`. You find the configurations in the [http-auth project](https://github.com/gevorg/http-auth#configurations).
