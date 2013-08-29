@@ -34,8 +34,7 @@ grunt.initConfig({
   },
 })
 ```
-####
-Adding the middleware
+#### Adding the middleware
 Expose the http-auth function to use in the middleware, at the top of the grunt file:
 ```js
 var authRequest = require('grunt-connect-http-auth/lib/utils').authRequest;
@@ -54,6 +53,17 @@ connect: {
         }
     }
 }
+```
+
+#### Adding the "configureHttpAuth" task to the server task
+For the server task, add the "configureHttpAuth" task before the "connect" task
+```js
+grunt.registerTask('server', function (target) {
+    grunt.task.run([
+        'configureHttpAuth',
+        'connect:livereload'
+    ]);
+});
 ```
 
 ## Release History
