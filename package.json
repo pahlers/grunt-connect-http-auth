@@ -1,0 +1,45 @@
+{
+  "name": "grunt-connect-http-auth",
+  "description": "Http-auth middleware for grunt-connect.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/eonlepapillon/grunt-connect-http-auth",
+  "author": {
+    "name": "Peter Ahlers (eonlepapillon)",
+    "email": "eonlepappillon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eonlepapillon/grunt-connect-http-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eonlepapillon/grunt-connect-http-auth/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/eonlepapillon/grunt-connect-http-auth/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "http-auth": "~1.2.8"
+  }
+}
