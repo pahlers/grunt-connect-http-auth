@@ -20,7 +20,7 @@ grunt.loadNpmTasks('grunt-connect-http-auth');
 ## The "connect_http_auth" task
 
 ### Overview
-In your project's Gruntfile, add a section named `auth` to the `connect` data object passed into `grunt.initConfig()`. You find the configurations in the [`http-auth` project](https://github.com/gevorg/http-auth#configurations).
+In your project's Gruntfile, add a section named `auth` to the `connect` data object passed into `grunt.initConfig()`. You find the configurations in the [http-auth project](https://github.com/gevorg/http-auth#configurations).
 
 ```js
 grunt.initConfig({
@@ -34,7 +34,7 @@ grunt.initConfig({
 ```
 ####
 Adding the middleware
-Expose the proxy function to use in the middleware, at the top of the grunt file:
+Expose the http-auth function to use in the middleware, at the top of the grunt file:
 ```js
 var authRequest = require('grunt-connect-http-auth/lib/utils').authRequest;
 ```
