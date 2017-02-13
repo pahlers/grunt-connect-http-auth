@@ -2,6 +2,10 @@
 
 > Http-auth middleware for grunt-connect.
 
+## NOTE
+
+This package is not supported actively anymore. But it's opensource, so feel free to make changes, fork it, print it on paper or whatever. If you make a pull request I'm willing to review it and add it to the source.
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
